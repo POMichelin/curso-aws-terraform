@@ -1,29 +1,83 @@
-# Local .terraform directories
-**/.terraform/*
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@POMichelin 
+chgasparoto
+/
+curso-aws-com-terraform
+Public
+Fork your own copy of chgasparoto/curso-aws-com-terraform
+Code
+Issues
+Pull requests
+4
+Discussions
+Actions
+Projects
+Security
+Insights
+curso-aws-com-terraform/.gitignore
+@chgasparoto
+chgasparoto Course update to Terraform version v0.14 (#25)
+Latest commit 84105d3 on Apr 11, 2021
+ History
+ 1 contributor
+36 lines (33 sloc)  402 Bytes
+ 
 
-# .tfstate files
-*.tfstate
-*.tfstate.*
+*.dll
+*.exe
+.DS_Store
+example.tf
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
 
-# Crash log files
-crash.log
+website/vendor
 
-# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
-# .tfvars files are managed as part of configuration and so should be included in
-# version control.
-#
-# example.tfvars
+# Test exclusions
+!command/test-fixtures/**/*.tfstate
+!command/test-fixtures/**/.terraform/
 
-# Ignore override files as they are usually used to override resources locally and so
-# are not checked in
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-
-# Include override files you do wish to add to version control using negated pattern
-#
-# !example_override.tf
-
-# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
-# example: *tfplan*
+node_modules/
+*.zip
+tfplan.out
+plan.tfout
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+curso-aws-com-terraform/.gitignore at master · chgasparoto/curso-aws-com-terraform
